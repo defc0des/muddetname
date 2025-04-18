@@ -1,0 +1,2 @@
+# muddetname
+müddetname hesaplama programi 
