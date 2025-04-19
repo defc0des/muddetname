@@ -38,8 +38,8 @@ public class MuddetnameHesaplayici {
                 infazOrani = 0.75;
         }
 
-        // Tarih formatı
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        // Tarih formatı Gün-Ay-Yıl şeklinde girilmesi için düzenlenmiştir.
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
         LocalDate girisTarihi = LocalDate.parse(girisTarihiStr, formatter);
 
         // Toplam ceza günü
